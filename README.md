@@ -35,7 +35,7 @@ Detailed information about installing and running the application can be found [
 
 # Extra problem
 
-Script for solving an additional task is in the file: **extra-problem.js**. The main function is called **groupByGameId**.
+Script for solving an additional task is in the file: **[extra-problem.js](https://github.com/web6studio/free-games/blob/main/extra-problem.js)**. The main function is called **groupByGameId**.
 
 # What can be improved
 
