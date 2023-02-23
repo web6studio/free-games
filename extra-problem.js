@@ -1,3 +1,4 @@
+// Function for comparing transformed and expected data
 const deepEqual = (a, b) => {
   // typeof
   if (typeof a !== typeof b) {
@@ -33,6 +34,7 @@ const deepEqual = (a, b) => {
   return true;
 };
 
+// JSON initial data
 const data = `{
   "archery-mission-lvl": {
     "fails": 9,
@@ -66,6 +68,7 @@ const data = `{
   }
 }`;
 
+// Expected data
 const expectedRes = [
   {
     fails: 18,
@@ -89,6 +92,7 @@ const expectedRes = [
 
 const parsedData = JSON.parse(data);
 
+// Problem solving function
 const groupByGameId = progress => {
   const grouped = {};
 
@@ -108,4 +112,5 @@ const groupByGameId = progress => {
   return Object.values(grouped);
 };
 
-console.log(deepEqual(groupByGameId(parsedData), expectedRes));
+// Test
+console.log(deepEqual(groupByGameId(parsedData), expectedRes)); // true
