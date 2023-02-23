@@ -45,3 +45,7 @@ Script for solving an additional task is in the file: **extra-problem.js**. The 
 4. Styling/Refactoring
 5. I didn't add any Debounce/Throttling to limit requests to 4 per second. I suppose the interface will not allow to make such a number of requests in real life. Adding such restrictions is not difficult in future.
 6. The application uses React Query. It is perfect for the small project. But for large commercial projects I prefer to use Redux and Saga for more flexibility, better debugging and business logic isolation.
+
+# Gif Demo
+
+![](https://github.com/web6studio/free-games/blob/main/demo.gif)
