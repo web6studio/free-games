@@ -7,6 +7,7 @@ This application is developed for Android and has not been tested on iOS. You ca
 ### Clone repo:
 
 `git clone git@github.com:web6studio/free-games.git`
+
 `cd free-games`
 
 ### Install dependencies:
